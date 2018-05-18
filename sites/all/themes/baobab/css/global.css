@@ -1,0 +1,534 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+ 
+ /* top fixed menu with the green background */
+ 
+ header#section-header {
+    background-color: #f1f3f2;
+}
+
+section#section-content {
+    background: #fff;
+    margin-top: -35px;
+}
+
+.not-front section#section-content {
+    margin-top: 8px;
+}
+div#zone-user-wrapper {
+    background: #157143;
+   /*  position: fixed; */
+    z-index: 99;
+    width: 100%;
+}
+
+#zone-footer-wrapper{
+    background: #157143;
+        margin-top: 40px;
+    }
+
+#zone-footer-wrapper p{
+    text-align: center;
+    color: #fff;
+    margin-top: 13px;
+    font-size: 14px;
+}
+::selection {
+    background-color: #fff200;
+}
+
+body{
+font-family: "Balto",Helvetica,Arial,"Nimbus Sans L",sans-serif;
+    font-size: 93.75%;
+    line-height: 1.66667;
+   
+    color: #4c4e4d;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* The menus at the top and the other */
+
+#block-nice-menus-1 {
+   
+    background: #F4912B;
+    padding: 5.5px 0px;
+    margin-bottom: 0px;
+    z-index: 99;
+}
+
+ul.nice-menu-down li,ul.nice-menu li {
+    border: 0px solid #ccc;
+    border-top: 0;
+    float: left;
+    background-color: transparent;
+    border-top: 0px solid #ccc;
+}
+
+ul.nice-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+/* The Branding REgion */
+.branding-data.clearfix {
+    float: left;
+    /* margin-right: 64px; */
+}
+
+.logo-img {
+    float: left;
+    margin-right: 0px;
+    width: 69%;
+    margin-top: -40px;
+    margin-bottom: -9px;
+}
+
+/*div#block-block-1 {
+    float: left;
+    width: 120px;
+    margin-left: 14px;
+    margin-top: 34px;
+}*/
+div#block-block-1 {
+    float: left;
+    width: 114px;
+    
+    margin-top: 34px;
+    margin-left: -36px;
+}
+
+div#block-search-form {
+    clear: both;
+}
+
+div#block-block-1 img {
+    max-width: 32px;
+}
+
+div#zone-branding-wrapper {
+    /* margin-top: 5px; */
+    position: relative;
+    top: 43px;
+    padding-bottom: 56px;
+}
+
+div#region-branding {
+    /* top: 43px; */
+    /* padding-bottom: 56px; */
+}
+
+input#edit-submit,input#edit-submit--2, input[type="submit"] {
+    background: #5C4937;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    border-radius: 0px;
+    border: 1px solid;
+    border-color: #5C4937;
+    cursor: pointer;
+    color: #fff;
+    font-family: inherit;
+    outline: 0;
+    overflow: visible;
+    padding: 7px 6px 7px 6px;
+    text-shadow: #5C4937 0 0px 0px;
+    width: auto;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 6px;
+    margin-left: -4px;
+}
+
+input#edit-search-block-form--2,input[type="text"] {
+    -webkit-appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #e1e1e1;
+    color: #000;
+    outline: 0;
+    padding: 8px 3px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 79%;
+    margin-top: 6px;
+}
+
+
+/* Menu Mobile */
+
+.responsive-menus.responsified span.toggler {
+    padding: 1px;
+    display: block;
+    background: #157143;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px #157143;
+    font-size: 1.35em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.responsive-menus.responsified .responsive-menus-simple {
+    display: none;
+    width: 100%;
+    background: rgba(0, 133, 87, 0.7);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 0px 0px #000;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+#zone-menu-wrapper {
+    background: #157143;
+    padding: 11px 0;
+}
+
+
+/* The Side menu Catergories */
+
+.menu-mlid-219 {
+    display: none;
+}
+
+/* For the entire website */
+
+img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+/* Header with slider */
+#zone-header {
+    width: 100%;
+}
+
+#region-header-first {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#block-nivo-slider-nivo-slider {
+    width: 100%;
+    margin-right: 0px;
+}
+
+.theme-default .nivoSlider {
+    position: relative;
+    background: #fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 0px 0px #4a4a4a;
+    -moz-box-shadow: 0px 0px 0px 0px #4a4a4a;
+    box-shadow: 0px 0px 0px 0px #4a4a4a;
+}
+
+.nivo-caption {
+    opacity: 1! important;
+    -moz-opacity: 1;
+    filter: alpha(opacity=8);
+    position: relative;
+}
+
+.theme-default .nivo-controlNav {
+    text-align: center;
+    padding: 0px 0;
+}
+
+.theme-default .nivo-controlNav a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: orange;
+    text-indent: -9999px;
+    border: 0;
+    margin: 0 2px;
+}
+
+.theme-default .nivo-controlNav a.active {
+    background-position: 0 -22px;
+    background: #1E9249;
+}
+
+
+/* The Block Titles */
+
+h2.block-title {
+    font-size: 34px;
+    margin: 21px 0px 2px 0px;
+    font-family: inherit;
+    color: #5C4937;
+    font-weight: 100;
+    border-bottom: 1px solid #5C4937;
+    padding-left: 0px;
+    margin-bottom: 21px;
+    width: 100%;
+    border-top: 1px solid #5C4937;
+}
+
+/* The Node titles */
+
+.views-field-title a {
+    color: #5C4937;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* The Preface Regions */
+
+#region-preface-first .views-row{
+    background: hsla(0,0%,98%,.85);
+}
+div#region-preface-first .views-field-title {
+    padding: 0 5px;
+}
+
+#region-preface-first .views-field-body {
+    padding: 0 7px 3px 8px;
+    text-align: justify;
+}
+
+#region-preface-first .views-field-view-node a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+ div#region-preface-first .views-field-view-node {
+    padding: 0px 7px;
+    float: left;
+    padding: 5px 4px;
+    position: relative;
+}
+
+ div#region-preface-first .views-field-field-category {
+    float: right;
+    background: #157143;
+    padding: 5px 4px;
+    position: relative;
+    color: #fff;
+}
+
+/* the Side Stuff */
+
+.block-menu-block a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #157143;
+}
+
+.block-menu-block .content.clearfix,
+.block-multiblock .content.clearfix{
+    padding: 17px 17px 17px;
+    background: hsla(0,0%,98%,.85);
+}
+
+ul li.leaf {
+    list-style-image: none;
+    list-style-type: inherit;
+}
+
+/* The Gallery */
+
+
+#block-views-gallery-block .content.clearfix {
+    padding: 22px 0px 3px 21px;
+    background: hsla(0,0%,98%,.85);
+}
+
+#block-views-gallery-block .views-row {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 18px;
+    width: 45%;
+}
+
+
+#block-views-gallery-block .views-field-field-category {
+    float: none;
+    color: #157143;
+    padding: 5px 4px;
+    position: relative;
+   
+}
+
+
+/* The Bread Crumb */
+
+
+#block-easy-breadcrumb-easy-breadcrumb {
+    background: hsla(0,0%,98%,.85);
+    padding: 7px 5px;
+    margin: 0px 0;
+}
+
+.easy-breadcrumb a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #157143;
+}
+
+/* The menu Block on the side of the inside pages */
+
+
+.block-multiblock .menu-block-1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #157143;
+}
+
+.block-multiblock .view-blog .views-row {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+}
+
+.block-multiblock .view-blog .block-multiblock a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5C4937;
+    text-align: justify;
+}
+
+.block-multiblock .view-blog .views-field-field-category {
+    color: #157143;
+}
+
+h1#page-title {
+   font: 41px/43px AdelleBold,'Helvetica Neue',Helvetica,sans-serif;
+    margin-top: 21px;
+}
+
+.field-name-field-blog-image {
+    margin: 0 11px 41px -6%;
+}
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+ 
+    height: 1.8em;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #e1e1e1;
+    color: #000;
+    outline: 0;
+    padding: 8px 3px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 79%;
+    margin-top: 6px;
+}
+input.webform-submit.button-primary.form-submit {
+    margin-left: 0px;
+}
+
+label {
+    font-weight: normal;
+    color: #157143;
+    font-family: inherit;
+}
+
+
+
+/* The Slideshow */
+
+.field-slideshow-controls {
+    float: right;
+    margin-top: -21px;
+    position: relative;
+    z-index: 9;
+}
+.field-slideshow-controls a {
+    text-decoration: none;
+    background: #157143;
+    padding: 2px 8px 0px 8px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+
+/*Pager*/
+
+.pager {
+    background: #F5F5DC;
+    border: 0px solid;
+    border-color: #ddd #bbb #999;
+    border-radius: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 0px;
+}
+
+.pager li.pager-current {
+    font-weight: 300 ! important;
+    background: #157143;
+    padding: 14px 27px ! important;
+    color: #FFF ! important;
+    outline: 0;
+    font-size: 19px ! important;
+}
+
+.item-list .pager li, .item-list .pager ul li {
+    padding: 13px 20px;
+}
+
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+    border-radius: 0px 0 0 0px;
+    -moz-border-radius: 0px 0 0 0px;
+    -webkit-border-radius: 0px 0 0 0px;
+}
+.pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+}
+.pager li a {
+    background: #F5F5DC url(../images/button.png) repeat-x;
+    background: #F5F5DC;
+    background: -moz-linear-gradient(top center, #fff 0%, #F5F5DC 100%);
+    cursor: pointer;
+}
+.pager li.pager-ellipsis, .pager li.pager-current, .pager li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pager li.pager-next {
+    border-left: 1px solid;
+    border-color: #F5F5DC;
+}
+
+
+
+
+

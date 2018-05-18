@@ -1,0 +1,169 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+ header#section-header {
+    border-top: 37px #157143 solid;
+}
+  .nivo-caption {
+    opacity: 0.6 ! important;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=6);
+    position: absolute;
+}
+ 
+ div#block-search-form {
+    float: right;
+    /* background: aliceblue; */
+    width: 32%;
+    margin-top: -84px;
+    margin-right: -10px;
+}
+div#block-block-1 {
+    float: right;
+    width: 123px;
+    margin-right: 34%;
+    margin-top: 19px;
+}
+
+.logo-img {
+    width: 69%;
+    margin-top: -40px;
+    margin-bottom: -9px;
+}
+ 
+#block-nice-menus-1 {
+    margin-top: -37px;
+    float: right;
+    margin-right: -1%;
+    right: 7px;
+    position: fixed;
+}
+
+
+
+/* The Ultimate Blog */
+
+.not-front #region-content  .views-row.views-row-1.views-row-odd.views-row-first{
+    width: 50%;
+    float: left;
+    height: 512px;
+    background: #FAFAFA;
+    margin-right: 51px;
+}
+
+.not-front #region-content .views-row.views-row-1.views-row-odd.views-row-first .views-field-title a {
+    color: #157143;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25.5px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.not-front #region-content  .views-row.views-row-1.views-row-odd.views-row-first .views-field-title {
+    padding: 21px 10px;
+}
+
+.not-front #region-content  .views-row.views-row-1.views-row-odd.views-row-first .views-field-body {
+    display: block;
+    padding: 0px 16px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+
+.not-front #region-content .views-row {
+    width: 31%;
+    float: left;
+    margin-right: 15px;
+    height: 263px;
+}
+
+.not-front #region-content .views-row-2,
+.not-front #region-content .views-row-3 {
+    width: 40%;
+    float: left;
+    margin-right: 15px;
+}
+
+.not-front #region-content .views-row .views-field-body{
+display:none;
+}
+
+
+
+
+.not-front #region-content  .views-field-field-blog-image {
+    /* position: inherit; */
+}
+
+.theme-default .nivo-caption {
+    font-family: inherit;
+    width: 41%;
+    padding: 23px 18px;
+    font-size: 17px;
+    margin: 0 0 46px 47px;
+    opacity: 0.6 ! important;
+    height:160px;
+}
+
+.theme-default .nivo-controlNav {
+    margin-top: -35px;
+    z-index: 9;
+    position: relative;
+    margin-bottom: 36px;
+}
+
+/* For the Blog Page */
+
+.page-blog .views-field-field-category {
+    float: right;
+}
+/* The Blog on the side at the front*/
+
+div#region-preface-second section#block-views-blog-block  .views-field-field-blog-image {
+    float: left;
+    margin-right: 6px;
+        width: 183px;
+    /* height: 111px; */
+    margin-bottom: 11px;
+}
+
+
+
+div#region-preface-second section#block-views-blog-block  .views-field-body {
+    display: none;
+}
+
+div#region-preface-second section#block-views-blog-block   .views-row {
+    clear: both;
+    margin-bottom: 5px;
+
+    padding: 0px 0;
+}
+
+div#region-preface-second section#block-views-blog-block  .views-field-field-category {
+    color: #157143;
+    position: relative;
+}
+
+div#region-preface-second section#block-views-blog-block  .views-field-title a {
+    color: #5C4937;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* The Form */
+
+.form-textarea-wrapper textarea {
+    display: block;
+    margin: 0;
+    width: 79%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 160px;
+}
